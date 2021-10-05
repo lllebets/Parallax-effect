@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  height: 7%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  font-weight: bold;
+  color: rgb(34, 169, 126);
+  position: absolute;
+}
+
+body {
+  background-color: rgb(227, 229, 228);
+  overflow: hidden;
+}
+
+// =================NAV=================
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 35%;
+  right: 20px;
+  z-index: 1;
+
+  .nav-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: rgb(34, 169, 126);
+  }
+
+  .nav-dot:hover {
+    background-color: white;
+  }
+
+  span {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 35%;
+    right: 50px;
+    background-color: rgb(34, 169, 126);
+    font-size: 18px;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 3px;
+  }
+
+  .title1 {
+    top: 35%;
+    right: 50px;
+    display: none;
+  }
+
+  .title2 {
+    top: 38%;
+    right: 50px;
+    display: none;
+  }
+
+  .title3 {
+    top: 42%;
+    right: 50px;
+    display: none;
+  }
+
+  .title4 {
+    top: 45%;
+    right: 50px;
+    display: none;
+  }
+}
+
+.menu:hover {
+  span {
+    display: flex;
+  }
+}
+
+.sckrol {
+  width: 100%;
+  height: 10%;
+  margin-top: 5%;
+
+  hr {
+    height: 3px;
+    background-color: lightgray;
+  }
+}
+
+.down,
+.up {
+  text-align: center;
+  color: rgb(34, 169, 126);
+  font-size: 1.5em;
+}
+
+.up:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.down:hover {
+  color: black;
+  cursor: pointer;
+}
+
+//================Content===================
+.wrapper-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+
+    h1 {
+      color: rgb(34, 169, 126);
+      font-size: 5em;
+      font-weight: normal;
+      margin-bottom: 1%;
+    }
+
+    p {
+      font-size: 1.3em;
+    }
+  }
+
+  .wrapper-foto {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      z-index: 0;
+    }
+  }
+}
+
+.footer {
+  background-image: url(../imges/ground.png);
+  background-position: center 200px;
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+
+h1 {
+  line-height: 1em;
+  z-index: 1;
+}
+
+p {
+  z-index: 1;
+}
+
+//==============Paralaxx========================
+
+.cloud1 {
+  position: absolute;
+  top: 50vh;
+  left: 20vw;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 20vh;
+  left: 70vw;
+}
+
+.cloud3 {
+  position: absolute;
+  top: 70vh;
+  left: 45vw;
+}
+
+.cloud4 {
+  position: absolute;
+  top: 150vh;
+  left: 20vw;
+}
+
+.cloud5 {
+  position: absolute;
+  top: 130vh;
+  left: 50vw;
+}
+
+.cloud6 {
+  position: absolute;
+  top: 150vh;
+  left: 45vw;
+}
+
+.cloud7 {
+  position: absolute;
+  top: 250vh;
+  left: 20vw;
+}
+
+.cloud8 {
+  position: absolute;
+  top: 220vh;
+  left: 70vw;
+}
+
+.cloud9 {
+  position: absolute;
+  top: 270vh;
+  left: 45vw;
+}
+
+.cloud10 {
+  position: absolute;
+  top: 312vh;
+  left: 10vw;
+}
+
+.cloud11 {
+  position: absolute;
+  top: 312vh;
+  left: 50vw;
+}
+
+.cloud12 {
+  position: absolute;
+  top: 312vh;
+  left: 80vw;
+}
